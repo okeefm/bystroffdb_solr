@@ -108,12 +108,12 @@
         
 	<field name="id" type="tint" indexed="true" stored="true" required="true"/>
 	<field name="Name_of_Sample" type="text_en" indexed="true" stored="true"/>
-	<field name="volume" type="tfloat" indexed="true" stored="true" />
-	<field name="purity" type="tfloat" indexed="true" stored="true"/>
-	<field name="concentration" type="tfloat" indexed="true" stored="true"/>
+	<field name="volume" type="text_ws" indexed="true" stored="true" />
+	<field name="purity" type="text_ws" indexed="true" stored="true"/>
+	<field name="concentration" type="text_en_splitting" indexed="true" stored="true"/>
 	<field name="date" type="tdate" indexed="true" stored="true"/>
-	<field name="amount" type="tfloat" indexed="true" stored="true"/>
-	<field name="gi_number" type="text_en" indexed="true" stored="true"/>
+	<field name="amount" type="text_ws" indexed="true" stored="true"/>
+	<field name="gi_number" type="text_ws" indexed="true" stored="true"/>
 	<field name="sequence" type="text_general_rev" indexed="true" stored="true"/>
 	<field name="comments" type="text_en_splitting" indexed="true" stored="true"/>
 	<field name="last_update" type="tdate" indexed="true" stored="true"/>
